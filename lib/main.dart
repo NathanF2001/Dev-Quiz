@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_flutter/core/app_widget.dart';
 
+import 'core/core.dart';
+
 void main() {
   runApp(MyApp());
 }

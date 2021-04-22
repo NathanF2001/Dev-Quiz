@@ -7,8 +7,8 @@ class AwnserWidget extends StatelessWidget {
   final bool isSelected;
 
   const AwnserWidget({
-    Key key,
-    @required this.title,
+    Key? key,
+    required this.title,
     this.isRight = false,
     this.isSelected = false,
   }) : super(key: key);

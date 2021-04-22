@@ -4,7 +4,7 @@ import 'package:quiz_flutter/core/core.dart';
 class ProgressIndicatorWidget extends StatelessWidget {
   final double value;
 
-  const ProgressIndicatorWidget({Key key, @required this.value})
+  const ProgressIndicatorWidget({Key? key, required this.value})
       : super(key: key);
 
   @override

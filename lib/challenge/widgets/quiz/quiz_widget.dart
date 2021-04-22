@@ -5,7 +5,7 @@ import 'package:quiz_flutter/core/app_text_styles.dart';
 class QuizWidget extends StatelessWidget {
   final String title;
 
-  const QuizWidget({Key key, @required this.title}) : super(key: key);
+  const QuizWidget({Key? key, required this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
